@@ -27,3 +27,23 @@ Agile is a methodology which adheres to four values. Individuals and Interaction
 
 
 # Question 5 (https://reqtest.com/testing-blog/the-a-to-z-guide-to-the-software-testing-process/)
+
+
+# Question 6
+
+
+# Question 7
+
+# Question 8
+
+# Question 9
+
+# Question 10
+
+# Question 11
+
+# Question 12
+
+# Question 13
+
+# Question 14
