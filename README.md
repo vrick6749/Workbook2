@@ -8,8 +8,14 @@ Apart from convention over configuration, rails philosophy also involves the DRY
 
 
 # Question 2
+https://www.techopedia.com/definition/1178/data-independence
+https://thenewstack.io/why-and-when-you-need-transactional-ddl-in-your-database/
+https://www.aalpha.net/blog/pros-and-cons-of-using-postgresql-for-application-development/
 
-Database management systems enables users to store, create, retrieve, edit and delete data. It is the middleman of the application a user is utilizing and the database of where they opted to store their information. A frequently used DBMS is postgresql. This database management system has numerous upsides, such as transactional DDL, extensibility, opensource long term support, ability to handle large amounts of data. Cons slow speeds with larger database as data is sifted by rows, being open source means no warranty and liability or indemnity protection, schema is strict and not as flexible as noSQL database, which has no immediate structure.
+Database management systems enables users to store, create, retrieve, edit and delete data. DBMS allows for data independece, which permits for a logical schema to be modified, without affecting the structure of the next level data structure. Data independence also means that data is stored at a different location rather than within the application, allowing for more versatile use of data and a more portable and efficient application. 
+An example of a widely used database management system is postgresql.
+
+Postgresql has several benefits compared to other databases such as, transactional DDL, parameters, extensibility and security. A transactional DDL is concerned with a group of operations observing ACIDity (atomic, consistent, isolated and durable) being treated as a single operation. This grouping of transactions enable better responsiveness and flexibility to application problems, as programmers will be able to rollback to a previous working code and resolve the issue, without interrupting the functionality and accessibility of the entire application.
 
 # Question 3 (https://www.smartsheet.com/comprehensive-guide-values-principles-agile-manifesto)
 <!-- Discuss the implementation of Agile project management methodology	 -->
