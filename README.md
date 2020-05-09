@@ -21,17 +21,24 @@ Security wise  postgresql provides parameter based security wherein database can
 Some of postgresql's limitations involve a strict database structure, wherein a schema cannot consist of new data until it's column has been defined prior to addition. This structure may also lead to a slower performace when running a query on a large scale databse, as the query will have to be run through numerous rows and columns. Postgresql is also an open source software, which means it is run by the community, this implies a lack of warranty and indemnity protection.
 
 # Question 3 (https://www.smartsheet.com/comprehensive-guide-values-principles-agile-manifesto)
+https://www.dummies.com/careers/project-management/applying-agile-management-value-2-working-software-over-comprehensive-documentation/
 <!-- Discuss the implementation of Agile project management methodology	 -->
 
-Agile is a methodology which adheres to four values. Individuals and Interactions Over Processes and Tools, promotes a smoother flow of communication between team members and customers allowing for faster reactions when change must be done to a project, as in the case of process these conversations will be scheduled and may be limited to specific topics of discussion making reactions to changes sluggish.
+Agile is a methodology which adheres to four values. 
 
- Working Software Over Comprehensive Documentation,
+1)Individuals and Interactions Over Processes and Tools. 
 
+   Promotes a smoother flow of communication between team members and customers allowing for faster reactions when change must be done to a project, as in the case of process these conversations will be scheduled and may be limited to specific topics of discussion making reactions to changes sluggish.
 
-  Customer Collaboration Over Contract Negotiation
+2)Working Software Over Comprehensive Documentation,
+
+   Rather than developers dedicating a huge and particular amount of time in documentation,which may retard the progress of project development this encourages workers to streamline documentation. Developers create documentation on the go, normally depicting the requirements of the project and technical specifications as to how the individual approached creating the project. This method allows easier identification of potential issues as assessment is concurrent with development of the application.
+
+3)Customer Collaboration Over Contract Negotiation
   
+  Collaboration allows the customer and developers to constantly monitor and guide the direction of the project, this proves to be more flexible as any issues that may arrise can be quickly discussed and resolved. This also provides a realistic perception of how the project will turn out. Since negotiation occurs periodically, it is less flexible as the customer normally presents expectation before the project even begins. Customers are not as involved in the development process, which may lead to unmet expectations and unexpected changes which can cause delays.
   
-   and Responding to Change Over Following a Plan.
+4) Responding to Change Over Following a Plan.
 
 
 # Question 4 (https://www.perforce.com/blog/vcs/what-source-control)
