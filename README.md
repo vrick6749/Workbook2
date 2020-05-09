@@ -40,6 +40,7 @@ Agile is a methodology which adheres to four values.
   
 4) Responding to Change Over Following a Plan.
 
+   With the agile methodology, teams work on small segments of a project at a time, rather than spreading the team across a wide plain. This again enables the team to be more reactive as resources can be moved to specific parts of the project when required. The ability to make the project fit the team also can increase productivity and ingenuity as interplay of ideas is more likely to occur when tackling projects in a more focused group.
 
 # Question 4 (https://www.perforce.com/blog/vcs/what-source-control)
 <!-- Provide an overview and description of a standard source control workflow	 -->
