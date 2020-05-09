@@ -48,8 +48,15 @@ Agile is a methodology which adheres to four values.
 
 
 # Question 5 (https://reqtest.com/testing-blog/the-a-to-z-guide-to-the-software-testing-process/)
+https://www.toolsqa.com/software-testing/test-process-in-software-testing/
 <!-- Provide an overview and description of a standard software testing process (e.g. manual testing) -->
+1)Testing Strategy and Planning
 
+2)Test Designing
+
+3)Test Execution
+
+4)Test Closure
 
 # Question 6
 https://www.proserveit.com/blog/information-security-requirements maybe?
