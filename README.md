@@ -64,7 +64,6 @@ https://www.toolsqa.com/software-testing/test-process-in-software-testing/
 https://www.proserveit.com/blog/information-security-requirements maybe?
 <!-- Discuss and analyse requirements related to information system security and how they relate to the project -->
 
-ACME's project must ensure that it is not succeptible to cybersecurity attacks, and it must uphold its responsibility towards the business, regulatory bodies and customers.
 
 # Question 7
 <!-- Discuss common methods of protecting information and data and how you would apply them to the project	 -->
@@ -93,7 +92,14 @@ https://www.toptal.com/developers/sorting-algorithms same for 13
 
 A sorting algorithm enables the rearrangement of an array of data in a particular pattern, through the use of comparison operators. The sorting of data is crucial as it optimizes the efficiency of other algorithms, mainly the search algorithm. As a sorted database enables for faster location of data and produces a more readable output. Sorting algorithms include and is not limited to the ff: selection sort, bubble sort, insertion sort, merge sort, quick sort, heap sort and radix sort.
 
-In order to measure the performance of these algorithms the Big-O notation is used. Big-O implies how code complexity is affected by the amount of input being handled by code. 
+In order to measure the performance of these algorithms the Big-O notation is used. Big-O implies how code complexity is affected by the amount of input being handled by code. Complexity normally insinuates the time it takes to execute the code as well as the space utilized by the algorithm. For comparison let us use the merge sort and the quick sort. 
+
+Merge sort is an external algorith for the fact that it divides the element into two subarray repeatedly until a single element is left, which requires additional storage due to the potential scale of input. It makes use of three arrays, the first two to store the subarrays and the last to store the result.
+Quick sort on the other hand is an internal algorithm, although it also uses a divide and conquer method the main difference is that quick sort compares all values to a pivot value.
+
+At worst case time complexity quick sort has a value of O(n2) while merge sort has O(nlogn). This is mainly due to quick sort having to compare each value to a pivot before allocating the value to the correct placement. In terms of space complexity on the otherhand merge sort falls short, as it requires extra storage for all the subarray it produces. 
+
+Refering back to time complexity O(nlogn) is beneficial for large scale application as time has a linear growth despite n growing exponentially. Quick sort despite having O(n2) is still a good option as it is occupies less space and is local, and will still be efficient for smaller arrays, compared to other sorting algorithms especially bubble sort.
 # Question 13
 https://www.studytonight.com/data-structures/selection-sorting same for 12
 # Question 14
