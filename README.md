@@ -45,7 +45,9 @@ Agile is a methodology which adheres to four values.
 # Question 4 (https://www.perforce.com/blog/vcs/what-source-control)
 <!-- Provide an overview and description of a standard source control workflow	 -->
 
+Source control is a crucial part of coding, especially for development teams. This allows for a source of truth for the developers working on a particular code. Source control paves a path for collaborations, as it enables multiple programmers to work a similar code base, where there will be no conflict if any of the developers commit or merge code. History of code alterations are also recorded in order to manage versions of the code, in case an update causes errors or bugs.
 
+ A standard workflow for source control involves, creating a new project, coding, add it to the staging area, commit the staged changes to local repository, create an online repository and push your file to that online repository. Otherwise if a user plans to add a new feature or create a bug fix he/she must create a new branch which will not affect the master, and merge that branch if no issues arise, or continue working on a separate branch.
 
 # Question 5 (https://reqtest.com/testing-blog/the-a-to-z-guide-to-the-software-testing-process/)
 https://www.toolsqa.com/software-testing/test-process-in-software-testing/
@@ -69,16 +71,29 @@ ACME's project must ensure that it is not succeptible to cybersecurity attacks, 
 # Question 8
 
 # Question 9
+<!-- Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.-->
 https://www.guru99.com/relational-data-model-dbms.html
-
-
+Relational database models are simply data represented as a collection of relations or table of values. The table is composed of a name, tuple and column. The column represents each of the attributes a data must comprise of, while each row identifies a particular set of related data within that particular table, which is normally identified through the primary key.
+The model is a separate entity from the relational database management system, which enables the manipulation of stored data. Examples of RDM are Oracle, SQL adn DB2. The simple layout of relational database makes it scalable, data retrieval is also easier as it is information is organized. Different tables can also be connected through special join cases such as foreign keys, allowing for more dynamic and meaningful results during queries.
 
 # Question 10
 https://www.techopedia.com/definition/811/data-integrity-databases
+
+Relational integrity refers to the conditions required in order to uphold meaningful relations. It is divided into three categories domain constraints, key constraints and referential integrity constraints. Domain constraints state that columns of a relational database must be defined and that every column definition must be unique along with its data type being declared. Key constraints dictates that every row must have it's own unique primary key and a primary key must not be null. 
+While referential integrity permits foreign keys to be in two states, first is as a primary key of another table and second is it being null, which represents no relationship to another table.
+These rules being implemented allow for a well defined and reliable data structure, as the paramaters ties down each data input at a particular section of the table.
 # Question 11
+   Database management systems are responsible for manipulating the data within a database model. SQL or structured query language is a commonly used language by these management systems in order to handle data.Database management systems utilizing SQL such as Postgresql is an improved version, which support additional functionalities such as support of unicode characters, additional options for setting triggers and support for arrays. SQL was specifically made to handle databases, as it has builin statements with particular syntaxes to create, edit, delete and retrieve data. Some of the crucial commands built in to SQL involve select,update,delete,insert into,drop table, create table, create index and create database. These commands must then be executed in a strict arrangement in order to obtain meaningful results. An example of a common SQL query to update is placed below.
+   (UPDATE nameOfTable)
+   (SET    parameterOfDataToBeChanged)
+   (WHERE  primaryKeyofData)
 
 # Question 12
 https://www.toptal.com/developers/sorting-algorithms same for 13
+
+A sorting algorithm enables the rearrangement of an array of data in a particular pattern, through the use of comparison operators. The sorting of data is crucial as it optimizes the efficiency of other algorithms, mainly the search algorithm. As a sorted database enables for faster location of data and produces a more readable output. Sorting algorithms include and is not limited to the ff: selection sort, bubble sort, insertion sort, merge sort, quick sort, heap sort and radix sort.
+
+In order to measure the performance of these algorithms the Big-O notation is used. Big-O implies how code complexity is affected by the amount of input being handled by code. 
 # Question 13
 https://www.studytonight.com/data-structures/selection-sorting same for 12
 # Question 14
