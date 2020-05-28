@@ -62,6 +62,8 @@ https://www.toolsqa.com/software-testing/test-process-in-software-testing/
 https://www.proserveit.com/blog/information-security-requirements maybe?
 <!-- Discuss and analyse requirements related to information system security and how they relate to the project -->
 
+ACME's project must ensure that it is not succeptible to cybersecurity attacks, and it must uphold its responsibility towards the business, regulatory bodies and customers.
+
 # Question 7
 <!-- Discuss common methods of protecting information and data and how you would apply them to the project	 -->
 # Question 8
