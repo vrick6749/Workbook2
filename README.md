@@ -137,7 +137,8 @@ Based on Big O notation time complexity wise sequential or linear search has a v
 Regarding interval searches it has a value of O(log N). This implies that its benefits are seen as data being parsed becomes bigger of scale. Since data being traversed from the middle point of the array, work can be cut in half during every iteration. This would mean that as data input grows the time it takes to conduct the search is proportional to log of input, which is better for bigger sets of data when compared to O(n). 
 Although ideal for larger sets, for a small sample would not be an ideal application as the processes will be too robust, where a simple linear search may suffice. Also a requirement for interval searches though is that the data being traversed must be organized, as it relies on the middle value being the median of an array, which if it is not will not make sense and can cause errors.
 # Question 14
-
+https://www.bernardmarr.com/default.asp?contentID=708
+https://www.nextplatform.com/2015/09/10/airbnb-shares-the-keys-to-its-infrastructure/
 <!--a. List and describe the software used by the app.
   b. Describe the hardware used to host the app.
   c. Describe the interaction of technologies within the app
@@ -145,7 +146,7 @@ Although ideal for larger sets, for a small sample would not be an ideal applica
   e. Identify entities which must be tracked by the app
   f. Identify the relationships and associations between the entities you have identified in part (e)
   g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)-->
-  Airbnb is a marketplace app which allows the connection of hosts with travellers, providing them with a place to stay in exchange for money.
+  Airbnb is a marketplace app which allows the connection of hosts with travellers, providing them with a place to stay in exchange for money. Below is a breakdown of their application.
   ##### a)
   Airbnb was created through the use of Ruby on Rails, javascript, html, css and ajax. Ruby on Rails allowed for the application to be deployed faster as Ruby on Rails has a convention over configuration practice, allowing developers to focus on features of the application. Javascript, CSS and HTML work together in order to create a dynamic and visually engaging application.
   ##### b)
@@ -153,6 +154,7 @@ Although ideal for larger sets, for a small sample would not be an ideal applica
   ##### c) 
   Ruby on rails acts as a backbone for the processes and execution of code, based on the users inputs and requirements. The other codes such as javascipt, css, ajax and html act as supplements in order to create a more responsive and efficient application. Since applcations have the tendency to expand as demand grows, a scallable database is required in this case AWS. Rails along with a database management system and the extra features of AWS generates an environment which is responsive and effective in terms of functionality and resource allocation.
   ##### d) 
+  Airbnb stores roughly 1.5 petabytes of data. These datas are normally a mix of strings and images. In order to get the most efficient result for querying Airbnb has used a combination of storage where the main storage is Hadoop. The Hadoop framework allows for scalability it also work well with associating unstructured data such as images and locational data. In order to provide a platform for  structured data Hive was utilized as it can mimic SQL performance and stored particular data into tables. This combination on a single platform allows for efficient relational querying.
   ##### e)
   Airbnb must track numerous datas such as users, listing, prices, location, reviews, dates, payment details, amenities, favorites, host, photos and payments. These are just some of the obvious data that may be tracked.
   ##### f)
