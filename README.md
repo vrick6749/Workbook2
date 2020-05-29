@@ -1,5 +1,7 @@
 Assessment 2
 
+https://github.com/vrick6749/Workbook2
+
 # Question 1 
 https://adrianmejia.com/ruby-on-rails-architectural-design/
 * Describe the architecture of a typical Rails application
