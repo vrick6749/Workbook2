@@ -1,7 +1,7 @@
 Assessment 2
 
 # Question 1 
-(https://adrianmejia.com/ruby-on-rails-architectural-design/)
+https://adrianmejia.com/ruby-on-rails-architectural-design/
 * Describe the architecture of a typical Rails application
 
 Rails is a web application development framework which adheres to a rule of convention over configuration. This allows programmers to be more productive as structure of the program is prefabricated allowing for more time to focus on the programs content. The rails framework is comprised of the model, view and controller also known as MVC. The model contains the logic of data being handled by the code framework. It allows for the manipulation and validation of data being stored as well as being passed to and from the client. The view is concerned with rendering the data from the server into a meaningful "view" for the end client. 
@@ -24,7 +24,8 @@ Security wise  postgresql provides parameter based security wherein database can
 
 Some of postgresql's limitations involve a strict database structure, wherein a schema cannot consist of new data until it's column has been defined prior to addition. This structure may also lead to a slower performace when running a query on a large scale databse, as the query will have to be run through numerous rows and columns. Postgresql is also an open source software, which means it is run by the community, this implies a lack of warranty and indemnity protection.
 
-# Question 3 (https://www.smartsheet.com/comprehensive-guide-values-principles-agile-manifesto)
+# Question 3 
+https://www.smartsheet.com/comprehensive-guide-values-principles-agile-manifesto
 https://www.dummies.com/careers/project-management/applying-agile-management-value-2-working-software-over-comprehensive-documentation/
 * Discuss the implementation of Agile project management methodology
 
@@ -82,6 +83,7 @@ Confedentiality refers to the restriction of data access to those with permissio
 
  An example for business would be to store and limit access to its database based on user permission to preserve integrity and confidentiality. Regulatory may vary from different governing bodies, wherein the application must be compliant with certain legislations. Security commitment by data encryption of sensitive inputs is an example of customer obligation.
 # Question 7
+https://gdprinformer.com/gdpr-articles/6-essential-data-protection-methods
 * Discuss common methods of protecting information and data and how you would apply them to the project
 
 Common methods to protect data involve but are not limited to pseudonymisation, encryption, destruction, backups and access control.
@@ -93,6 +95,7 @@ Pseudonymisation and encryption are closely related a key difference is that wit
  Lastly backups provide integrity as it presents as a reserve if any data is corrupted or lost due to technical malfunction or user error.
 
 # Question 8
+https://www.business.gov.au/Risk-management/Cyber-security/How-to-protect-your-customers-information
 * Research what your legal obligations are in relation to handling user data and how they can be met for the project
 
 A business must be responsible for protecting customers information from things such as theft, misuse, modification and disclosure. This concept passes on to their application, although certain specificities may vary depending on location as different areas have various legalities.
@@ -156,6 +159,8 @@ Although ideal for larger sets, for a small sample would not be an ideal applica
 # Question 14
 https://www.bernardmarr.com/default.asp?contentID=708
 https://www.nextplatform.com/2015/09/10/airbnb-shares-the-keys-to-its-infrastructure/
+https://www.techinasia.com/talk/airbnb-help-user-find-results
+https://www.quora.com/What-is-the-difference-between-Hadoop-HIVE-and-PIG
   * a. List and describe the software used by the app.
   * b. Describe the hardware used to host the app.
   * c. Describe the interaction of technologies within the app
