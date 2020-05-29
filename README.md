@@ -68,7 +68,7 @@ A common approach to manual testing is:
    Document any code changes and monitor the applications real time performance after redeployment.
 
 # Question 6
-https://www.proserveit.com/blog/information-security-requirements maybe?
+https://www.proserveit.com/blog/information-security-requirements 
 <!-- Discuss and analyse requirements related to information system security and how they relate to the project -->
 Applications handle numerous data, some of which are sensitive information. Security is an obligation which must be considered when developing an application. The security triad which involve confidentiality, integrity and availability, are guidelines to determine if an application is secure.
 
@@ -97,6 +97,7 @@ Again regulatory requirements can vary from different locations, an example for 
 # Question 9
 <!-- Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.-->
 https://www.guru99.com/relational-data-model-dbms.html
+
 Relational database models are simply data represented as a collection of relations or table of values. The table is composed of a name, tuple and column. The column represents each of the attributes a data must comprise of, while each row identifies a particular set of related data within that particular table, which is normally identified through the primary key.
 The model is a separate entity from the relational database management system, which enables the manipulation of stored data. Examples of RDM are Oracle, SQL adn DB2. The simple layout of relational database makes it scalable, data retrieval is also easier as it is information is organized. Different tables can also be connected through special join cases such as foreign keys, allowing for more dynamic and meaningful results during queries.
 
@@ -128,6 +129,7 @@ Refering back to time complexity O(logn) is beneficial for large scale applicati
 # Question 13
 https://www.studytonight.com/data-structures/selection-sorting 
 https://www.geeksforgeeks.org/searching-algorithms
+
 Searching algorithms are used in order to retrieve or check for an element in any given datastructure based on passed parameters. Search operations are divided into two categories sequential search and interval search. Sequential search as the name suggests traverses a list of data sequentially, wherein every element is searched until the required one if located. Interval search targets the center of a data set repeatedly dividing the search space in half, although interval searches are designed specifically for sorted data-structures.
 
 Based on Big O notation time complexity wise sequential or linear search has a value of O(n) as the times an operation will be conducted is linear with regards to the amount of data input. In general terms the code is neither efficient nor useless, although it is important to note that it is able to handle unorganized data sets unlike interval searches making it flexible. This search algorithm can still be used for small scale operations.
