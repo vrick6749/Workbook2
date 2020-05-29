@@ -43,14 +43,16 @@ Agile is a methodology which adheres to four values.
 
    With the agile methodology, teams work on small segments of a project at a time, rather than spreading the team across a wide plain. This again enables the team to be more reactive as resources can be moved to specific parts of the project when required. The ability to make the project fit the team also can increase productivity and ingenuity as interplay of ideas is more likely to occur when tackling projects in a more focused group.
 
-# Question 4 (https://www.perforce.com/blog/vcs/what-source-control)
+# Question 4 
+https://www.perforce.com/blog/vcs/what-source-control
 <!-- Provide an overview and description of a standard source control workflow	 -->
 
 Source control is a crucial part of coding, especially for development teams. This allows for a source of truth for the developers working on a particular code. Source control paves a path for collaborations, as it enables multiple programmers to work a similar code base, where there will be no conflict if any of the developers commit or merge code. History of code alterations are also recorded in order to manage versions of the code, in case an update causes errors or bugs.
 
  A standard workflow for source control involves, creating a new project, coding, add it to the staging area, commit the staged changes to local repository, create an online repository and push your file to that online repository. Otherwise if a user plans to add a new feature or create a bug fix he/she must create a new branch which will not affect the master, and merge that branch if no issues arise, or continue working on a separate branch.
 
-# Question 5 (https://reqtest.com/testing-blog/the-a-to-z-guide-to-the-software-testing-process/)
+# Question 5 
+https://reqtest.com/testing-blog/the-a-to-z-guide-to-the-software-testing-process/
 https://www.toolsqa.com/software-testing/test-process-in-software-testing/
 <!-- Provide an overview and description of a standard software testing process (e.g. manual testing) -->
 Testing is the activity wherein actual results are compared to target results. With software development it assists in identifying any errors or gaps which a developer can rectify or improve to achieve a product which is closer to the finished good. Testing does not guarantee a bug free software, but allows to ensure that integral parts of the software are functional for the end user. The testing process can either be manual or automated. Each with its merits such as manual testing is favorable for exploratory testing, as automated testing is scripted it can only execute what has been programmed, while manual testing allows for experience, creativity and intuition to play a role allowing for different approaches.
@@ -111,7 +113,7 @@ These rules being implemented allow for a well defined and reliable data structu
    (WHERE  primaryKeyofData)
 
 # Question 12
-https://www.toptal.com/developers/sorting-algorithms same for 13
+https://www.toptal.com/developers/sorting-algorithms
 
 A sorting algorithm enables the rearrangement of an array of data in a particular pattern, through the use of comparison operators. The sorting of data is crucial as it optimizes the efficiency of other algorithms, mainly the search algorithm. As a sorted database enables for faster location of data and produces a more readable output. Sorting algorithms include and is not limited to the ff: selection sort, bubble sort, insertion sort, merge sort, quick sort, heap sort and radix sort.
 
@@ -125,7 +127,7 @@ At worst case time complexity quick sort has a value of O(n2) while merge sort h
 Refering back to time complexity O(logn) is beneficial for large scale application as time has a linear growth despite n growing exponentially. Quick sort despite having O(n2) is still a good option as it is occupies less space and is local, and will still be efficient for smaller arrays, compared to other sorting algorithms especially bubble sort.
 # Question 13
 https://www.studytonight.com/data-structures/selection-sorting 
-https://www.geeksforgeeks.org/searching-algorithms/
+https://www.geeksforgeeks.org/searching-algorithms
 Searching algorithms are used in order to retrieve or check for an element in any given datastructure based on passed parameters. Search operations are divided into two categories sequential search and interval search. Sequential search as the name suggests traverses a list of data sequentially, wherein every element is searched until the required one if located. Interval search targets the center of a data set repeatedly dividing the search space in half, although interval searches are designed specifically for sorted data-structures.
 
 Based on Big O notation time complexity wise sequential or linear search has a value of O(n) as the times an operation will be conducted is linear with regards to the amount of data input. In general terms the code is neither efficient nor useless, although it is important to note that it is able to handle unorganized data sets unlike interval searches making it flexible. This search algorithm can still be used for small scale operations.
