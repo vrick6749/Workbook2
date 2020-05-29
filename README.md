@@ -2,6 +2,7 @@ Assessment 2
 
 # Question 1 
 (https://adrianmejia.com/ruby-on-rails-architectural-design/)
+* Describe the architecture of a typical Rails application
 
 Rails is a web application development framework which adheres to a rule of convention over configuration. This allows programmers to be more productive as structure of the program is prefabricated allowing for more time to focus on the programs content. The rails framework is comprised of the model, view and controller also known as MVC. The model contains the logic of data being handled by the code framework. It allows for the manipulation and validation of data being stored as well as being passed to and from the client. The view is concerned with rendering the data from the server into a meaningful "view" for the end client. 
 
@@ -13,6 +14,8 @@ https://www.techopedia.com/definition/1178/data-independence
 https://thenewstack.io/why-and-when-you-need-transactional-ddl-in-your-database/
 https://www.aalpha.net/blog/pros-and-cons-of-using-postgresql-for-application-development/
 
+* Identify a database management system (DBMS) commonly used in web applications (including Rails) and discuss the pros and cons of this database
+
 Database management systems enables users to store, create, retrieve, edit and delete data. DBMS allows for data independece, which permits for a logical schema to be modified, without affecting the structure of the next level data structure. Data independence also means that data is stored at a different location rather than within the application, allowing for more versatile use of data and a more portable and efficient application. 
 An example of a widely used database management system is postgresql.
 
@@ -23,7 +26,7 @@ Some of postgresql's limitations involve a strict database structure, wherein a 
 
 # Question 3 (https://www.smartsheet.com/comprehensive-guide-values-principles-agile-manifesto)
 https://www.dummies.com/careers/project-management/applying-agile-management-value-2-working-software-over-comprehensive-documentation/
-<!-- Discuss the implementation of Agile project management methodology	 -->
+* Discuss the implementation of Agile project management methodology
 
 Agile is a methodology which adheres to four values. 
 
@@ -45,7 +48,7 @@ Agile is a methodology which adheres to four values.
 
 # Question 4 
 https://www.perforce.com/blog/vcs/what-source-control
-<!-- Provide an overview and description of a standard source control workflow	 -->
+* Provide an overview and description of a standard source control workflow
 
 Source control is a crucial part of coding, especially for development teams. This allows for a source of truth for the developers working on a particular code. Source control paves a path for collaborations, as it enables multiple programmers to work a similar code base, where there will be no conflict if any of the developers commit or merge code. History of code alterations are also recorded in order to manage versions of the code, in case an update causes errors or bugs.
 
@@ -54,7 +57,7 @@ Source control is a crucial part of coding, especially for development teams. Th
 # Question 5 
 https://reqtest.com/testing-blog/the-a-to-z-guide-to-the-software-testing-process/
 https://www.toolsqa.com/software-testing/test-process-in-software-testing/
-<!-- Provide an overview and description of a standard software testing process (e.g. manual testing) -->
+* Provide an overview and description of a standard software testing process (e.g. manual testing) 
 Testing is the activity wherein actual results are compared to target results. With software development it assists in identifying any errors or gaps which a developer can rectify or improve to achieve a product which is closer to the finished good. Testing does not guarantee a bug free software, but allows to ensure that integral parts of the software are functional for the end user. The testing process can either be manual or automated. Each with its merits such as manual testing is favorable for exploratory testing, as automated testing is scripted it can only execute what has been programmed, while manual testing allows for experience, creativity and intuition to play a role allowing for different approaches.
 Performance and reapeated testing is where automated testing shines, as a computer can execute code faster than humans.
 A common approach to manual testing is:
@@ -69,7 +72,8 @@ A common approach to manual testing is:
 
 # Question 6
 https://www.proserveit.com/blog/information-security-requirements 
-<!-- Discuss and analyse requirements related to information system security and how they relate to the project -->
+* Discuss and analyse requirements related to information system security and how they relate to the project
+
 Applications handle numerous data, some of which are sensitive information. Security is an obligation which must be considered when developing an application. The security triad which involve confidentiality, integrity and availability, are guidelines to determine if an application is secure.
 
 Confedentiality refers to the restriction of data access to those with permission to see it. Integrity assures that any data being accessed has not been altered by people with no access and represents what is actually intended. Availability  is the ability of data to be accessed and modified by users with permissions.
@@ -78,7 +82,8 @@ Confedentiality refers to the restriction of data access to those with permissio
 
  An example for business would be to store and limit access to its database based on user permission to preserve integrity and confidentiality. Regulatory may vary from different governing bodies, wherein the application must be compliant with certain legislations. Security commitment by data encryption of sensitive inputs is an example of customer obligation.
 # Question 7
-<!-- Discuss common methods of protecting information and data and how you would apply them to the project	 -->
+* Discuss common methods of protecting information and data and how you would apply them to the project
+
 Common methods to protect data involve but are not limited to pseudonymisation, encryption, destruction, backups and access control.
 
 Pseudonymisation and encryption are closely related a key difference is that with a given data, encryption changes the entire data into non understandable text in relation to a specific key. Psuedonymisation only replaces "key" fields or sensitive aspects of the data, but still making some of it accessible and readable. Encryption will be used for full access restriction of information while psuedonymisation willbe used for less sensitive data.
@@ -88,15 +93,18 @@ Pseudonymisation and encryption are closely related a key difference is that wit
  Lastly backups provide integrity as it presents as a reserve if any data is corrupted or lost due to technical malfunction or user error.
 
 # Question 8
-<!--Research what your legal obligations are in relation to handling user data and how they can be met for the project-->
+* Research what your legal obligations are in relation to handling user data and how they can be met for the project
+
 A business must be responsible for protecting customers information from things such as theft, misuse, modification and disclosure. This concept passes on to their application, although certain specificities may vary depending on location as different areas have various legalities.
 
 In order to uphold the basics of handling user data the application must be again placed under the scrutiny of the security triad during development. Incorporating encryption for user information, restricted access to user information and non disclosure of captured data to third party are some of the features that an application that can show compliance to these regulations.
 
 Again regulatory requirements can vary from different locations, an example for Australia that an application must adhere to is that user diclosures must not contain overriding qualifiers, as it may lead to misleading to consumers, when they agree to the terms of using an application.
 # Question 9
-<!-- Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.-->
+
 https://www.guru99.com/relational-data-model-dbms.html
+
+* Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.
 
 Relational database models are simply data represented as a collection of relations or table of values. The table is composed of a name, tuple and column. The column represents each of the attributes a data must comprise of, while each row identifies a particular set of related data within that particular table, which is normally identified through the primary key.
 The model is a separate entity from the relational database management system, which enables the manipulation of stored data. Examples of RDM are Oracle, SQL adn DB2. The simple layout of relational database makes it scalable, data retrieval is also easier as it is information is organized. Different tables can also be connected through special join cases such as foreign keys, allowing for more dynamic and meaningful results during queries.
@@ -104,10 +112,15 @@ The model is a separate entity from the relational database management system, w
 # Question 10
 https://www.techopedia.com/definition/811/data-integrity-databases
 
+* 	Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database.
+
 Relational integrity refers to the conditions required in order to uphold meaningful relations. It is divided into three categories domain constraints, key constraints and referential integrity constraints. Domain constraints state that columns of a relational database must be defined and that every column definition must be unique along with its data type being declared. Key constraints dictates that every row must have it's own unique primary key and a primary key must not be null. 
 While referential integrity permits foreign keys to be in two states, first is as a primary key of another table and second is it being null, which represents no relationship to another table.
 These rules being implemented allow for a well defined and reliable data structure, as the paramaters ties down each data input at a particular section of the table.
 # Question 11
+
+* Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database.
+
    Database management systems are responsible for manipulating the data within a database model. SQL or structured query language is a commonly used language by these management systems in order to handle data.Database management systems utilizing SQL such as Postgresql is an improved version, which support additional functionalities such as support of unicode characters, additional options for setting triggers and support for arrays. SQL was specifically made to handle databases, as it has builin statements with particular syntaxes to create, edit, delete and retrieve data. Some of the crucial commands built in to SQL involve select,update,delete,insert into,drop table, create table, create index and create database. These commands must then be executed in a strict arrangement in order to obtain meaningful results. An example of a common SQL query to update is placed below.
    (UPDATE nameOfTable)
    (SET    parameterOfDataToBeChanged)
@@ -115,6 +128,8 @@ These rules being implemented allow for a well defined and reliable data structu
 
 # Question 12
 https://www.toptal.com/developers/sorting-algorithms
+
+* Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O)
 
 A sorting algorithm enables the rearrangement of an array of data in a particular pattern, through the use of comparison operators. The sorting of data is crucial as it optimizes the efficiency of other algorithms, mainly the search algorithm. As a sorted database enables for faster location of data and produces a more readable output. Sorting algorithms include and is not limited to the ff: selection sort, bubble sort, insertion sort, merge sort, quick sort, heap sort and radix sort.
 
@@ -129,6 +144,8 @@ Refering back to time complexity O(logn) is beneficial for large scale applicati
 # Question 13
 https://www.studytonight.com/data-structures/selection-sorting 
 https://www.geeksforgeeks.org/searching-algorithms
+
+* Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O)	
 
 Searching algorithms are used in order to retrieve or check for an element in any given datastructure based on passed parameters. Search operations are divided into two categories sequential search and interval search. Sequential search as the name suggests traverses a list of data sequentially, wherein every element is searched until the required one if located. Interval search targets the center of a data set repeatedly dividing the search space in half, although interval searches are designed specifically for sorted data-structures.
 
