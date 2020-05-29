@@ -146,16 +146,16 @@ Although ideal for larger sets, for a small sample would not be an ideal applica
   f. Identify the relationships and associations between the entities you have identified in part (e)
   g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)-->
   Airbnb is a marketplace app which allows the connection of hosts with travellers, providing them with a place to stay in exchange for money.
-  ### a)
+  ##### a)
   Airbnb was created through the use of Ruby on Rails, javascript, html, css and ajax. Ruby on Rails allowed for the application to be deployed faster as Ruby on Rails has a convention over configuration practice, allowing developers to focus on features of the application. Javascript, CSS and HTML work together in order to create a dynamic and visually engaging application.
-  ### b)
+  ##### b)
    Since day one Airbnb was hosted through the use of Amazon Web Services. This proved to be beneficial as Airbnb client base expanded so did the system storage requirements. AWS also provides extra features such as elastic load balancing (EC2), Amazon simple storage service (Amazon S3), elastic map reduce (Amazon EMR) and much more. All of which assists the application to handle multiple requests efficiently and effectively.
-  ### c) 
+  ##### c) 
   Ruby on rails acts as a backbone for the processes and execution of code, based on the users inputs and requirements. The other codes such as javascipt, css, ajax and html act as supplements in order to create a more responsive and efficient application. Since applcations have the tendency to expand as demand grows, a scallable database is required in this case AWS. Rails along with a database management system and the extra features of AWS generates an environment which is responsive and effective in terms of functionality and resource allocation.
-  ### d) 
-  ### e)
+  ##### d) 
+  ##### e)
   Airbnb must track numerous datas such as users, listing, prices, location, reviews, dates, payment details, amenities, favorites, host, photos and payments. These are just some of the obvious data that may be tracked.
-  ### f)
+  ##### f)
   Based on the details above, listing will contain, price, photos, reviews,location and dates of availability. User will then be a separate entity which will contain details such as name, address, username and  password,which can be associated to a listing directly or it can be associated to a listing through a cart or favorites entity. 
-  ### g)
+  ##### g)
   ![](image/ERDAirbnb.jpeg)
