@@ -1,6 +1,7 @@
 Assessment 2
 
-# Question 1 (https://adrianmejia.com/ruby-on-rails-architectural-design/)
+# Question 1 
+(https://adrianmejia.com/ruby-on-rails-architectural-design/)
 
 Rails is a web application development framework which adheres to a rule of convention over configuration. This allows programmers to be more productive as structure of the program is prefabricated allowing for more time to focus on the programs content. The rails framework is comprised of the model, view and controller also known as MVC. The model contains the logic of data being handled by the code framework. It allows for the manipulation and validation of data being stored as well as being passed to and from the client. The view is concerned with rendering the data from the server into a meaningful "view" for the end client. 
 
@@ -26,19 +27,19 @@ https://www.dummies.com/careers/project-management/applying-agile-management-val
 
 Agile is a methodology which adheres to four values. 
 
-1)Individuals and Interactions Over Processes and Tools. 
+### 1)Individuals and Interactions Over Processes and Tools. 
 
    Promotes a smoother flow of communication between team members and customers allowing for faster reactions when change must be done to a project, as in the case of process these conversations will be scheduled and may be limited to specific topics of discussion making reactions to changes sluggish.
 
-2)Working Software Over Comprehensive Documentation,
+### 2)Working Software Over Comprehensive Documentation,
 
    Rather than developers dedicating a huge and particular amount of time in documentation,which may retard the progress of project development this encourages workers to streamline documentation. Developers create documentation on the go, normally depicting the requirements of the project and technical specifications as to how the individual approached creating the project. This method allows easier identification of potential issues as assessment is concurrent with development of the application.
 
-3)Customer Collaboration Over Contract Negotiation
+### 3)Customer Collaboration Over Contract Negotiation
   
   Collaboration allows the customer and developers to constantly monitor and guide the direction of the project, this proves to be more flexible as any issues that may arrise can be quickly discussed and resolved. This also provides a realistic perception of how the project will turn out. Since negotiation occurs periodically, it is less flexible as the customer normally presents expectation before the project even begins. Customers are not as involved in the development process, which may lead to unmet expectations and unexpected changes which can cause delays.
   
-4) Responding to Change Over Following a Plan.
+### 4) Responding to Change Over Following a Plan.
 
    With the agile methodology, teams work on small segments of a project at a time, rather than spreading the team across a wide plain. This again enables the team to be more reactive as resources can be moved to specific parts of the project when required. The ability to make the project fit the team also can increase productivity and ingenuity as interplay of ideas is more likely to occur when tackling projects in a more focused group.
 
@@ -55,13 +56,13 @@ https://www.toolsqa.com/software-testing/test-process-in-software-testing/
 Testing is the activity wherein actual results are compared to target results. With software development it assists in identifying any errors or gaps which a developer can rectify or improve to achieve a product which is closer to the finished good. Testing does not guarantee a bug free software, but allows to ensure that integral parts of the software are functional for the end user. The testing process can either be manual or automated. Each with its merits such as manual testing is favorable for exploratory testing, as automated testing is scripted it can only execute what has been programmed, while manual testing allows for experience, creativity and intuition to play a role allowing for different approaches.
 Performance and reapeated testing is where automated testing shines, as a computer can execute code faster than humans.
 A common approach to manual testing is:
-1)Testing Strategy and Planning
+### 1)Testing Strategy and Planning
    Understand the nature and code of the application that is about to be tested. Create documentation on how to approach the testing phase.
-2)Test Designing
+### 2)Test Designing
    Create drafts of test cases, which encompasses areas which requires testing of the application under test (AUT).
-3)Test Execution
+### 3)Test Execution
    Execute the code in the AUT, record any new bugs or improvements, report it to the developer for rectification and test the application again to see if all issues are rectified.
-4)Test Closure
+### 4)Test Closure
    Document any code changes and monitor the applications real time performance after redeployment.
 
 # Question 6
@@ -141,10 +142,15 @@ Although ideal for larger sets, for a small sample would not be an ideal applica
   f. Identify the relationships and associations between the entities you have identified in part (e)
   g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)-->
   Airbnb is a marketplace app which allows the connection of hosts with travellers, providing them with a place to stay in exchange for money.
-  a)Airbnb was created through the use of Ruby on Rails, javascript, html, css and ajax. Ruby on Rails allowed for the application to be deployed faster as Ruby on Rails has a convention over configuration practice, allowing developers to focus on features of the application. Javascript, CSS and HTML work together in order to create a dynamic and visually engaging application.
-  b) Since day one Airbnb was hosted through the use of Amazon Web Services. This proved to be beneficial as Airbnb client base expanded so did the system storage requirements. AWS also provides extra features such as elastic load balancing (EC2), Amazon simple storage service (Amazon S3), elastic map reduce (Amazon EMR) and much more. All of which assists the application to handle multiple requests efficiently and effectively.
-  c) Ruby on rails acts as a backbone for the processes and execution of code, based on the users inputs and requirements. The other codes such as javascipt, css, ajax and html act as supplements in order to create a more responsive and efficient application. Since applcations have the tendency to expand as demand grows, a scallable database is required in this case AWS. Rails along with a database management system and the extra features of AWS generates an environment which is responsive and effective in terms of functionality and resource allocation.
-  d) 
-  e)Airbnb must track numerous datas such as users, listing, prices, location, reviews, dates, payment details, amenities, favorites, host, photos and payments. These are just some of the obvious data that may be tracked.
-  f)Based on the details above, listing will contain, price, photos, reviews,location and dates of availability. User will then be a separate entity which will contain details such as name, address, username and  password,which can be associated to a listing directly or it can be associated to a listing through a cart or favorites entity. 
-  g)
+  ### a)
+  Airbnb was created through the use of Ruby on Rails, javascript, html, css and ajax. Ruby on Rails allowed for the application to be deployed faster as Ruby on Rails has a convention over configuration practice, allowing developers to focus on features of the application. Javascript, CSS and HTML work together in order to create a dynamic and visually engaging application.
+  ### b)
+   Since day one Airbnb was hosted through the use of Amazon Web Services. This proved to be beneficial as Airbnb client base expanded so did the system storage requirements. AWS also provides extra features such as elastic load balancing (EC2), Amazon simple storage service (Amazon S3), elastic map reduce (Amazon EMR) and much more. All of which assists the application to handle multiple requests efficiently and effectively.
+  ### c) 
+  Ruby on rails acts as a backbone for the processes and execution of code, based on the users inputs and requirements. The other codes such as javascipt, css, ajax and html act as supplements in order to create a more responsive and efficient application. Since applcations have the tendency to expand as demand grows, a scallable database is required in this case AWS. Rails along with a database management system and the extra features of AWS generates an environment which is responsive and effective in terms of functionality and resource allocation.
+  ### d) 
+  ### e)
+  Airbnb must track numerous datas such as users, listing, prices, location, reviews, dates, payment details, amenities, favorites, host, photos and payments. These are just some of the obvious data that may be tracked.
+  ### f)
+  Based on the details above, listing will contain, price, photos, reviews,location and dates of availability. User will then be a separate entity which will contain details such as name, address, username and  password,which can be associated to a listing directly or it can be associated to a listing through a cart or favorites entity. 
+  ### g)
