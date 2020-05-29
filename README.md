@@ -139,13 +139,13 @@ Although ideal for larger sets, for a small sample would not be an ideal applica
 # Question 14
 https://www.bernardmarr.com/default.asp?contentID=708
 https://www.nextplatform.com/2015/09/10/airbnb-shares-the-keys-to-its-infrastructure/
-<!--a. List and describe the software used by the app.
-  b. Describe the hardware used to host the app.
-  c. Describe the interaction of technologies within the app
-  d. Describe the way data is structured within the app
-  e. Identify entities which must be tracked by the app
-  f. Identify the relationships and associations between the entities you have identified in part (e)
-  g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)-->
+  * a. List and describe the software used by the app.
+  * b. Describe the hardware used to host the app.
+  * c. Describe the interaction of technologies within the app
+  * d. Describe the way data is structured within the app
+  * e. Identify entities which must be tracked by the app
+  * f. Identify the relationships and associations between the entities you have identified in part (e)
+  * g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)
   Airbnb is a marketplace app which allows the connection of hosts with travellers, providing them with a place to stay in exchange for money. Below is a breakdown of their application.
   ##### a)
   Airbnb was created through the use of Ruby on Rails, javascript, html, css and ajax. Ruby on Rails allowed for the application to be deployed faster as Ruby on Rails has a convention over configuration practice, allowing developers to focus on features of the application. Javascript, CSS and HTML work together in order to create a dynamic and visually engaging application.
