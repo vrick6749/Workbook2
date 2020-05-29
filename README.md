@@ -52,13 +52,17 @@ Source control is a crucial part of coding, especially for development teams. Th
 # Question 5 (https://reqtest.com/testing-blog/the-a-to-z-guide-to-the-software-testing-process/)
 https://www.toolsqa.com/software-testing/test-process-in-software-testing/
 <!-- Provide an overview and description of a standard software testing process (e.g. manual testing) -->
+Testing is the activity wherein actual results are compared to target results. With software development it assists in identifying any errors or gaps which a developer can rectify or improve to achieve a product which is closer to the finished good. Testing does not guarantee a bug free software, but allows to ensure that integral parts of the software are functional for the end user. The testing process can either be manual or automated. Each with its merits such as manual testing is favorable for exploratory testing, as automated testing is scripted it can only execute what has been programmed, while manual testing allows for experience, creativity and intuition to play a role allowing for different approaches.
+Performance and reapeated testing is where automated testing shines, as a computer can execute code faster than humans.
+A common approach to manual testing is:
 1)Testing Strategy and Planning
-
+   Understand the nature and code of the application that is about to be tested. Create documentation on how to approach the testing phase.
 2)Test Designing
-
+   Create drafts of test cases, which encompasses areas which requires testing of the application under test (AUT).
 3)Test Execution
-
+   Execute the code in the AUT, record any new bugs or improvements, report it to the developer for rectification and test the application again to see if all issues are rectified.
 4)Test Closure
+   Document any code changes and monitor the applications real time performance after redeployment.
 
 # Question 6
 https://www.proserveit.com/blog/information-security-requirements maybe?
