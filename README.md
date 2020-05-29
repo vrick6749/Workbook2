@@ -145,6 +145,6 @@ Although ideal for larger sets, for a small sample would not be an ideal applica
   b) Since day one Airbnb was hosted through the use of Amazon Web Services. This proved to be beneficial as Airbnb client base expanded so did the system storage requirements. AWS also provides extra features such as elastic load balancing (EC2), Amazon simple storage service (Amazon S3), elastic map reduce (Amazon EMR) and much more. All of which assists the application to handle multiple requests efficiently and effectively.
   c) Ruby on rails acts as a backbone for the processes and execution of code, based on the users inputs and requirements. The other codes such as javascipt, css, ajax and html act as supplements in order to create a more responsive and efficient application. Since applcations have the tendency to expand as demand grows, a scallable database is required in this case AWS. Rails along with a database management system and the extra features of AWS generates an environment which is responsive and effective in terms of functionality and resource allocation.
   d) 
-  e)Airbnb must track numerous datas such as users, listing, prices, location
-  f)
+  e)Airbnb must track numerous datas such as users, listing, prices, location, reviews, dates, payment details, amenities, favorites, host, photos and payments. These are just some of the obvious data that may be tracked.
+  f)Based on the details above, listing will contain, price, photos, reviews,location and dates of availability. User will then be a separate entity which will contain details such as name, address, username and  password,which can be associated to a listing directly or it can be associated to a listing through a cart or favorites entity. 
   g)
