@@ -63,12 +63,30 @@ https://www.toolsqa.com/software-testing/test-process-in-software-testing/
 # Question 6
 https://www.proserveit.com/blog/information-security-requirements maybe?
 <!-- Discuss and analyse requirements related to information system security and how they relate to the project -->
+Applications handle numerous data, some of which are sensitive information. Security is an obligation which must be considered when developing an application. The security triad which involve confidentiality, integrity and availability, are guidelines to determine if an application is secure.
 
+Confedentiality refers to the restriction of data access to those with permission to see it. Integrity assures that any data being accessed has not been altered by people with no access and represents what is actually intended. Availability  is the ability of data to be accessed and modified by users with permissions.
 
+ Security obligation can be categorized into three sections namely business, regulatory and customer. When developing the application it is a must that the triad is upheld with each of these sections in mind, as each may have a specific requirement, which are unique from one another.
+
+ An example for business would be to store and limit access to its database based on user permission to preserve integrity and confidentiality. Regulatory may vary from different governing bodies, wherein the application must be compliant with certain legislations. Security commitment by data encryption of sensitive inputs is an example of customer obligation.
 # Question 7
 <!-- Discuss common methods of protecting information and data and how you would apply them to the project	 -->
-# Question 8
+Common methods to protect data involve but are not limited to pseudonymisation, encryption, destruction, backups and access control.
 
+Pseudonymisation and encryption are closely related a key difference is that with a given data, encryption changes the entire data into non understandable text in relation to a specific key. Psuedonymisation only replaces "key" fields or sensitive aspects of the data, but still making some of it accessible and readable. Encryption will be used for full access restriction of information while psuedonymisation willbe used for less sensitive data.
+
+ Destruction ensures that any data is purely deleted esuring that any unrequired information can no longer be accessed and is irrecoverable, normally done by degaussing of hard disks. 
+ Access control is concerned with the limitation of people within the company whom has access to particular data. Access control is mainly related to the workflow of the business rather than the application.
+ Lastly backups provide integrity as it presents as a reserve if any data is corrupted or lost due to technical malfunction or user error.
+
+# Question 8
+<!--Research what your legal obligations are in relation to handling user data and how they can be met for the project-->
+A business must be responsible for protecting customers information from things such as theft, misuse, modification and disclosure. This concept passes on to their application, although certain specificities may vary depending on location as different areas have various legalities.
+
+In order to uphold the basics of handling user data the application must be again placed under the scrutiny of the security triad during development. Incorporating encryption for user information, restricted access to user information and non disclosure of captured data to third party are some of the features that an application that can show compliance to these regulations.
+
+Again regulatory requirements can vary from different locations, an example for Australia that an application must adhere to is that user diclosures must not contain overriding qualifiers, as it may lead to misleading to consumers, when they agree to the terms of using an application.
 # Question 9
 <!-- Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.-->
 https://www.guru99.com/relational-data-model-dbms.html
@@ -99,7 +117,14 @@ Quick sort on the other hand is an internal algorithm, although it also uses a d
 
 At worst case time complexity quick sort has a value of O(n2) while merge sort has O(nlogn). This is mainly due to quick sort having to compare each value to a pivot before allocating the value to the correct placement. In terms of space complexity on the otherhand merge sort falls short, as it requires extra storage for all the subarray it produces. 
 
-Refering back to time complexity O(nlogn) is beneficial for large scale application as time has a linear growth despite n growing exponentially. Quick sort despite having O(n2) is still a good option as it is occupies less space and is local, and will still be efficient for smaller arrays, compared to other sorting algorithms especially bubble sort.
+Refering back to time complexity O(logn) is beneficial for large scale application as time has a linear growth despite n growing exponentially. Quick sort despite having O(n2) is still a good option as it is occupies less space and is local, and will still be efficient for smaller arrays, compared to other sorting algorithms especially bubble sort.
 # Question 13
-https://www.studytonight.com/data-structures/selection-sorting same for 12
+https://www.studytonight.com/data-structures/selection-sorting 
+https://www.geeksforgeeks.org/searching-algorithms/
+Searching algorithms are used in order to retrieve or check for an element in any given datastructure based on passed parameters. Search operations are divided into two categories sequential search and interval search. Sequential search as the name suggests traverses a list of data sequentially, wherein every element is searched until the required one if located. Interval search targets the center of a data set repeatedly dividing the search space in half, although interval searches are designed specifically for sorted data-structures.
+
+Based on Big O notation time complexity wise sequential or linear search has a value of O(n) as the times an operation will be conducted is linear with regards to the amount of data input. In general terms the code is neither efficient nor useless, although it is important to note that it is able to handle unorganized data sets unlike interval searches making it flexible. This search algorithm can still be used for small scale operations.
+
+Regarding interval searches it has a value of O(log N). This implies that its benefits are seen as data being parsed becomes bigger of scale. Since data being traversed from the middle point of the array, work can be cut in half during every iteration. This would mean that as data input grows the time it takes to conduct the search is proportional to log of input, which is better for bigger sets of data when compared to O(n). 
+Although ideal for larger sets, for a small sample would not be an ideal application as the processes will be too robust, where a simple linear search may suffice. Also a requirement for interval searches though is that the data being traversed must be organized, as it relies on the middle value being the median of an array, which if it is not will not make sense and can cause errors.
 # Question 14
