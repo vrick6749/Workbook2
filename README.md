@@ -158,3 +158,4 @@ Although ideal for larger sets, for a small sample would not be an ideal applica
   ### f)
   Based on the details above, listing will contain, price, photos, reviews,location and dates of availability. User will then be a separate entity which will contain details such as name, address, username and  password,which can be associated to a listing directly or it can be associated to a listing through a cart or favorites entity. 
   ### g)
+  ![](image/ERDAirbnb.jpeg)
